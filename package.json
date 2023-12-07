@@ -1,0 +1,29 @@
+{
+  "name": "mini-webpack",
+  "version": "1.0.0",
+  "description": "hand-webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./debugger.js",
+    "build": "webpack build --mode=development"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakachao/mini-webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "kakachao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kakachao/mini-webpack/issues"
+  },
+  "homepage": "https://github.com/kakachao/mini-webpack#readme",
+  "dependencies": {
+    "@babel/core": "^7.20.2",
+    "tapable": "^2.2.1",
+    "webpack": "^5.75.0"
+  }
+}
